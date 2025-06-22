@@ -1,0 +1,7 @@
+{
+  "acciones": [
+    "cabeza.utilizacion.AccionUno",
+    "cabeza.utilizacion.AccionDos",
+    "cabeza.utilizacion.AccionTres"
+  ]
+}

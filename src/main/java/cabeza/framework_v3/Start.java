@@ -1,4 +1,4 @@
-package cabeza.framework;
+package cabeza.framework_v3;
 
 public class Start {
 
@@ -10,6 +10,10 @@ public class Start {
 
     public Start(String pathConfig) {
         this.s = new Screen(pathConfig);
+    }
+
+    public Start(EstrategiaConfiguracion estrategiaConfiguracion) {
+        this.s = new Screen(estrategiaConfiguracion);
     }
 
     public void init() {
